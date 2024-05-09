@@ -1,0 +1,60 @@
+{
+  "name": "nextjs-template-eslint-test",
+  "bucket": "nextjs-template-eslint-test",
+  "preset": "next",
+  "mode": "compute",
+  "env": "production",
+  "prefix": "20240509161217",
+  "not-first-run": true,
+  "function": {
+    "id": 23144,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 22686,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1715273924,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1715272438,
+    "name": "nextjs-template-eslint-test",
+    "domain_name": "w5hp2k0m6g.map.azionedge.net",
+    "url": "https://w5hp2k0m6g.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 132845,
+      "origin-key": "901c2cae-808a-417a-a88b-bb2fe5f2dc3c",
+      "name": "nextjs-template-eslint-test_single"
+    },
+    {
+      "origin-id": 132846,
+      "origin-key": "4c38cf43-c2c7-4f34-ab27-6a63a1c38123",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 250924,
+        "name": "Assets_Rule_1"
+      },
+      {
+        "id": 250925,
+        "name": "Assets_Rule_2"
+      },
+      {
+        "id": 250926,
+        "name": "Compute_Rule"
+      }
+    ]
+  },
+  "cache-settings": null
+}
